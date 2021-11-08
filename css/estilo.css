@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: cornflowerblue;
+    line-height: 50px;
+}
+#conteiner{
+    background: rgb(109, 255, 212);
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 940px;
+}
+
+/*topo*/
+
+#topo{
+    min-height: 250px;
+    height: 15.4em;
+    position: relative;
+    border-bottom: 15px solid #fff;
+}
+
+#area-logo{
+    background: url(../imagens/fundotopo.jpg) no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-indent: -9000px;
+    
+}
+
+#area-menu{
+    background: url(../imagens/fundo-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+#conteudo-menu{
+    margin-left: 325px;
+    margin-right: 15px;
+    padding-top: 15px;
+
+}
+
+#conteudo-menu a{
+    font-weight: bolder;
+    color: rgb(54, 136, 110);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    line-height: 40px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#conteudo-menu a:hover{
+    
+    background: #fff url(../imagens/pata.png) left center no-repeat;
+    padding-left: 40px;
+    
+    
+}
+
+
+/*conteudo*/
+
+#area-principal{
+
+    background:#fff;
+    width: 58%;
+    float: left;
+    padding: 15px 0;
+    margin: 15px 0 15px 15px ;
+    
+    
+    
+}
+
+img.gato-bg{
+    margin-left: 350px ;
+    z-index: 5;
+}
+
+#area-principal p{
+    padding-bottom: 20px;
+}
+
+#area-secundaria{
+    background: #fff;
+    margin: 15px 15px 15px 0 ;
+    width: 37%;
+    float: right;
+    padding: 20px 0;
+    
+    
+ 
+} 
+
+
+
+#area-secundaria li{
+
+    border-bottom:  1px solid rgb(170, 214, 200);
+    border-top:  1px solid rgb(170, 214, 200);
+    padding: 15px  ;
+    height: 6em;
+    display: block;
+
+}
+#area-secundaria li:hover{
+background: rgb(186, 227, 243);
+
+}
+
+#area-secundaria li img{
+    float: left;
+    margin-right: 8px;
+    border: 2px solid #fff ;
+}
+#area-secundaria li a p{
+    
+    font-size: 0.7em;
+    color: #000;
+
+
+    
+}
+#area-secundaria li a h3{
+    
+    color: cornflowerblue   ;
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+li.bloco{
+    width: 80%;
+    
+    
+}
+
+.conteudo{
+
+    margin: 0 auto;
+    width: 90%;
+    
+    
+}
+
+
+
+#rodape{
+    clear: both;
+    color: rgb(133, 133, 133);
+    text-align: center;
+    background: #fff url(../imagens/rodape-bg.png) repeat-x bottom left;
+    height: 100px;
+}
+
+
+
